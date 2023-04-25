@@ -11,7 +11,8 @@ This API allows users to browse and manage products in a catalog.
 
 ### Installing
 
-1. Clone this repository: `git clone https://github.com/your-username/product-catalog-api.git`
+1. Clone this repository: `git clone https://github.com/1rezatbz/emperia_shop.git`
+1. Clone this repository: `git clone `
 2. Install dependencies: `pipenv install`
 3. Start the server: `pipenv run uvicorn main:app --reload`
 4. install the requirements`pip install -r requirements.txt`
