@@ -14,6 +14,8 @@ This API allows users to browse and manage products in a catalog.
 1. Clone this repository: `git clone https://github.com/your-username/product-catalog-api.git`
 2. Install dependencies: `pipenv install`
 3. Start the server: `pipenv run uvicorn main:app --reload`
+4. install the requirements`pip install -r requirements.txt`
+
 
 ## API Endpoints
 
