@@ -2,7 +2,7 @@ import os
 from bs4 import BeautifulSoup
 
 # Path to the HTML file to be used as a database
-DB_PATH = "../Emperia/index.html"
+DB_PATH = "./index.html"
 
 
 # Function to check if the database file exists and create it if it does not
@@ -21,3 +21,6 @@ def check_db() -> None:
         with open(DB_PATH, "w") as f:
             f.write("<table><tr><th>ID</th><th>Name</th><th>Description</th><th>Price</th></tr></table>")
         print(f"db '{DB_PATH}' created")
+
+if __name__ == '__main__':
+    check_db()
